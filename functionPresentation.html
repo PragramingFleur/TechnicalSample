@@ -1,0 +1,144 @@
+<html>
+<meta charset="utf-8" /> 
+<head>
+	<title>Function Presentation</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="functions.js"></script>
+</head>
+<body>
+	<div class="header">
+	</div>
+	<hr/>
+
+	<div class="main-content">
+		<table>
+		<tr>
+			<td>
+				<div class="dropdown">
+				<span class="bars"><p class="content">Calculate Age</p></span>
+					<div class="dropdown-content">
+				    	<form name="getYrInfo">
+				    		<br>Input Birth Year:
+					    	<br><input type="number" name="birthYr" min="0"/>
+					    	<br><br>Input Current Year:
+					    	<br><input type="number" name="currentYr" min="0"/>
+				    		<br><br><input type="button" value="Calculate" onclick="calculateAge(this.form)"/>
+				    	</form>		    
+				  	</div>
+				</div>
+			</td>
+
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Calculate Age Bonus</p></span>
+				  <div class="dropdown-content">
+				    <form name="getYrInfo2">
+				    	<br>Input Birth Year:
+				    	<br><input type="number" name="birthYr2" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="calculateAgeBonus(this.form)"/>
+				    </form>		    
+				  </div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Calculate Lifetime Supply</p></span>
+				  <div class="dropdown-content">
+				    <form name="getSupplyInfo">
+				    	<br>Input your age:
+				    	<br><input type="number" name="age" min="0"/>
+				    	<br><br>Input amount per day:
+				    	<br><input type="number" name="amountPerDay" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="calculateSupply(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+			</td>
+
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Calculate Lifetime Supply Bonus</p></span>
+				  <div class="dropdown-content">
+				    <form name="getSupplyInfo2">
+				    	<br>Input your age:
+				    	<br><input type="number" name="age2" min="0"/>
+				    	<br><br>Input amount per day:
+				    	<br><input type="number" name="amountPerDay2" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="calculateSupplyBonus(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Calculate for Circle Circumference</p></span>
+				  <div class="dropdown-content">
+				    <form name="circleInfo">
+				    	<br>Input radius:
+				    	<br><input type="number" name="radius" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="calcCircumfrence(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+			</td>
+
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Calculate for Circle Area</p></span>
+				  <div class="dropdown-content">
+				    <form name="circleInfo">
+				    	<br>Input radius:
+				    	<br><input type="number" name="radius2" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="calcArea(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Convert to Fahrenheit</p></span>
+				  <div class="dropdown-content">
+				    <form name="userCelsius">
+				    	<br>Input temperature(°C):
+				    	<br><input type="number" name="celsius" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="celsiusToFahrenheit(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+				
+			</td>
+
+			<td>
+				<div class="dropdown">
+				  <span class="bars"><p class="content">Convert to Celsius</p></span>
+				  <div class="dropdown-content">
+				     <form name="userFahrenheit">
+				    	<br>Input temperature(°F):
+				    	<br><input type="number" name="fahrenheit" min="0"/>
+				    	<br><br><input type="button" value="Calculate" onclick="fahrenheitToCelcius(this.form)"/>
+				    </form>	
+				  </div>
+				</div>
+			</td>
+		</tr>
+		</table>
+
+		<hr/>
+		<p>Programmed by: Fleur Andersen</p>
+	</div>
+
+	
+
+	
+
+</body>
+</html>

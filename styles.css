@@ -1,0 +1,87 @@
+* {
+	position: static;
+}
+
+.content {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+body,table{
+	height: 100%;
+}
+
+.main-content {
+	height: 70%;
+}
+.header {
+	background-image: url("http://www.venturecup.dk/betalab/wp-content/uploads/2014/10/Wiredelta.png");
+	height: 20%;
+	min-width: inherit;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bars {
+  display: block;
+  margin: 3% 0px 0px 0px;
+  width: 300px;
+  height: auto;
+  color: #fff;
+  background-color: #4D76B1;
+  text-align: center;
+  padding-bottom: 3px;
+  -webkit-transition: 1s;
+}
+
+.bars-group1 {
+  display: table-column-group;
+}
+.bars-group2 {
+  display: table-column-group;
+}
+.bars:last-child{
+	margin-bottom: 0px;
+}
+.bars:hover {
+	background-color: #75D4BF;
+	width: 100%;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    visibility: hidden;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: center;
+    filter:alpha(opacity=0);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    -webkit-transition:1s ease;
+    -moz-transition:1s ease;
+    -o-transition:1s ease;
+    transition:1s ease;
+    transition-delay:250ms;
+
+}
+.dropdown-content form {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+    filter:alpha(opacity=100);
+    opacity: 1;
+    z-index: 2;
+}
